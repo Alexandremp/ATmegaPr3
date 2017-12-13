@@ -12,7 +12,7 @@ void start(void){
     DDRC=0xff; //display
     PORTC=0xff;
     
-    DDRB=0b11100000;  //motor
+    DDRB=0b11100000;  //Engine
     PORTB=0b01000000; //direction=1
     
     OCR0=77;
